@@ -7,8 +7,8 @@
 $repeticiones = 30; #30 repeticiones por tamaño de matriz
 @ejecutables = ("matricesApp");
 @matrizSize = ("3", "4", "5", "10", "100", "400", "800", "1000", "2500", "5000");
-$path = "/home/{path}/Algorithms/threads/"; #reemplazar {path} por su ruta donde se encuentra ubicado el proyecto (ej: /home/pedro/paralela/Algorithms/threads/) IMPORTANTE: la ruta debe finalizar con / al final
-$numThreads = 16; #reemplazar "num" por el número de hilos 1, 2, 3, 5, 8, ..., máximo el núcleos que tenga su CPU
+$path = "/home/{path}/Algorithms/threads/"; #reemplazar {path} por su ruta donde se encuentra ubicado el proyecto (ej: /home/pedro/paralela/Algorithms/threads/) IMPORTANTE: la ruta debe finalizar en /
+$numThreads = {numHilos}; #reemplazar {numHilos} por el número de hilos 1, 2, 3, 5, 8, ..., máximo el núcleos que tenga su CPU
 
 foreach $exe (@ejecutables) {
 	foreach $size (@matrizSize) {
