@@ -14,5 +14,5 @@ En este repositorio encontrará los siguientes 3 algoritmos para utilizar en el 
 * Ejecute el lanzador correspondiente del algoritmo. Ej: **./lanzadorEnteros.pl**
 
 ### NOTA:
-* En el algoritmo 1 lo más probable es que su procesador alcance a realizar la multiplicación de matrices de tamaño máximo 800. Es normal que arroje *error de segmentación* en los últimos tamaños de matrices.
+* En el algoritmo 1 lo más probable es que su procesador alcance a realizar la multiplicación de matrices de tamaño máximo 800. Es normal que arroje **error de segmentación** en los últimos tamaños de matrices.
 * Recuerde que el algoritmo de **threads** lo debe ejecutar la cantidad de veces como la cantidad de hilos que tenga su CPU, modificando en cada ejecución el número de hilos.
