@@ -7,7 +7,7 @@
 $repeticiones = 30; #30 repeticiones por tamaño de matriz
 @ejecutables = ("matricesApp");
 @matrizSize = ("3", "4", "5", "10", "100", "400", "800", "1000", "2500", "5000");
-$path = "/home/{path}/Algorithms/punteros/"; #reemplazar {path} por su la ruta donde se encuentra ubicado el proyecto (ej: /home/pedro/paralela/Algorithms/punteros/)
+$path = "/home/{path}/Algorithms/punteros/"; #reemplazar {path} por la ruta donde se encuentra ubicado el proyecto (ej: /home/pedro/paralela/Algorithms/punteros/)
 
 foreach $exe (@ejecutables) {
 	foreach $size (@matrizSize) {
